@@ -10,7 +10,7 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
+    outline: none!important;    
 }
 
 a:hover {
@@ -89,11 +89,11 @@ a:hover {
     left: 0;
     right: 0;
 }
-
+/* 
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
-}
+} */
 
 .b-parallax {
     background-attachment: fixed;
@@ -332,9 +332,18 @@ a:hover {
     text-align: inherit;
 }
 
+/*ajout*/
+nav a:focus, 
+nav button:focus{
+   border: 1px solid #f3976c;  
+    border-radius: 40px; 
+}
+/**/
+
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
+     
 }
 
 .navbar-toggle {
@@ -707,6 +716,7 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    
 }
 
 h3 {
@@ -775,7 +785,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
