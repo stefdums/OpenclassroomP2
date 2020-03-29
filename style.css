@@ -32,10 +32,14 @@ button {
     outline:thin dotted !important;
 }
 
+
 .intro{
-    font-size:1.25em;
+    
+    font-size:1.375em;
     line-height:1.4em;
-    padding:auto 10px;
+    margin-left:auto;
+    margin-right:auto;
+    max-width:600px;
 }
 
 blockquote{
@@ -43,11 +47,13 @@ blockquote{
 }
 blockquote footer{
     font-size:0.938em;
+    color:black;
 }
-blockquote footer:before{
+/* blockquote footer:before{
     content:"";
-}
-.citation p{
+}*/
+
+.citation p{ 
     font-size: 1.25em;
     font-style: italic;
 }
@@ -128,7 +134,7 @@ footer p{
     background: top no-repeat;
 }
 
-.bloc-bg-texture::before {
+/* .bloc-bg-texture::before {
     content: "";
     background-size: 2px 2px;
     position: absolute;
@@ -137,9 +143,9 @@ footer p{
     left: 0;
     right: 0;
 }
-/* 
+
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 } */
 
@@ -604,11 +610,11 @@ a[data-lightbox]:hover::before {
     -webkit-transform: translateY(-50%);
 }
 
-/* a[data-lightbox]:hover img {
+a[data-lightbox]:hover img {
     opacity: 0.6;
     -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
-} */
+}
 
 /* #lightbox-modal {
     display: flex;
@@ -742,22 +748,29 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 1em;
     font-weight: bold;
 }
 
-/* .social {
+.social {
     max-width: 400px;
     margin: auto auto auto auto;
-} */
+} 
 
-h2 {
+/* h2 {
     font-size: 1.375em;
     line-height: 1.4em;
     
+} */
+
+
+h2 {
+    font-size: 0.938em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333333!important;
 }
 
 h3 {
@@ -831,7 +844,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: rgb(245, 143, 96) ;
-    color: #FFFFFF!important;
+    color: rgb(0, 0, 0)!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -843,12 +856,15 @@ h4 {
     border-radius: 40px;
 }
 
-.ltc-white {
+/* .ltc-white {
     color: #FFFFFF!important;
 }
 
 .ltc-white:hover {
     color: #cccccc!important;
+} */
+.black{
+    color:black!important;
 }
 
 /* .ltc-atomic-tangerine {
