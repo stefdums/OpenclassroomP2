@@ -577,10 +577,6 @@ footer p{
     transition: all .3s ease-in-out;
 }
 
-/* .scrollToTop:focus{
-    border:1px solid black;
-} */
-
 .scrollToTop span {
     margin-top: 6px;
 }
