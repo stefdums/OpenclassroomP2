@@ -573,13 +573,13 @@ footer p{
     bottom: 20px;
     right: 20px;
     opacity: 1;
-    z-index: auto;
+    z-index: 500;
     transition: all .3s ease-in-out;
 }
 
-.scrollToTop:focus{
+/* .scrollToTop:focus{
     border:1px solid black;
-}
+} */
 
 .scrollToTop span {
     margin-top: 6px;
