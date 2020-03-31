@@ -573,7 +573,7 @@ footer p{
     bottom: 20px;
     right: 20px;
     opacity: 1;
-    z-index: 500;
+    z-index: 1;
     transition: all .3s ease-in-out;
 }
 
